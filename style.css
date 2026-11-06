@@ -7,11 +7,13 @@ p {
 main {
   background-color: gainsboro;
   height: 75vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.grande-boite {
+.big-box {
   border: black solid 3px;
-  justify-content: center;
   background-color: white;
   width: 560px;
   height: 360px;
